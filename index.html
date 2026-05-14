@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>BUMDes NGABEHI BERKAH</title>
+    <title>BUMDes BUMI MAKMUR PASIGITAN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
@@ -21,7 +21,7 @@
 
 <div class="p-3">
     <div class="bg-dark text-white p-4 rounded-4 mb-4 shadow">
-        <h4 class="fw-bold mb-0 text-info">BUMDes NGABEHI BERKAH</h4>
+        <h4 class="fw-bold mb-0 text-info">BUMDes BUMI MAKMUR PASIGITAN</h4>
         <small id="tgl-info"></small>
         <hr class="opacity-25">
         <div class="d-flex justify-content-between text-warning fw-bold">
@@ -154,7 +154,7 @@
     }
 
     function cetakRawBT(item) {
-        let s = "   BUMDes NGABEHI BERKAH\n================================\nTgl  : " + (item.tgl || "-") + "\nAdm  : " + item.adm + "\n--------------------------------\nBERAT  : " + item.kg + " Kg\nHARGA  : Rp " + item.hrg.toLocaleString() + "\nTOTAL  : Rp " + item.total.toLocaleString() + "\n================================\n       TERIMA KASIH\n\n\n";
+        let s = "   BUMDes BUMI MAKMUR PASIGITAN\n================================\nTgl  : " + (item.tgl || "-") + "\nAdm  : " + item.adm + "\n--------------------------------\nBERAT  : " + item.kg + " Kg\nHARGA  : Rp " + item.hrg.toLocaleString() + "\nTOTAL  : Rp " + item.total.toLocaleString() + "\n================================\n       TERIMA KASIH\n\n\n";
         window.location.href = "rawbt:base64," + btoa(s);
     }
 
